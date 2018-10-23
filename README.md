@@ -29,5 +29,6 @@ For NFA-null following column is also required
 ### Example
 
 And Example CSV file for FA given in figure is 
-![NFA null](NFAnull.png)
+
+![](https://github.com/nNasir/FiniteAutomata/blob/master/NFAnull.JPG)
 
