@@ -1,7 +1,7 @@
 # FiniteAutomata
 
-This repository is intended to contained code files for various properties of finite automata.
-Its is created to for instructors who want to quickly provide/verify solutions. And for students who want to verify solutions. 
+This repository is intended to contain code files for various properties of finite automata.
+It is created for instructors who want to quickly provide/verify solutions. And for students who want to verify solutions. 
 
 Version 1.0 contains code for following algorithm
   * NFA to DFA
@@ -9,26 +9,26 @@ Version 1.0 contains code for following algorithm
   * Minimization of DFA
   * DFA to RE using State Elimination method
   
-## Abreviations
-Following Abbreviations are used throughout this repositort
+## Abbreviations
+Following Abbreviations are used throughout this repository
 * FA=Finite Automata
-* NFA= Nondeterminisitic Finite Automata
+* NFA= Non-deterministic Finite Automata
 * DFA= Deterministic Finite Automata
-* NFA-null= Nondeterminisitic Finite Automata with null transitions
+* NFA-null= Non-deterministic Finite Automata with null transitions
 * RE= Regular Expression  
 
 ## Code
-All the code files are in jupyter notebook python 3
+All the code files are in Jupyter Notebook Python 3
 
 ## Input
-All thse code file take a transition table in CSV file as input. The following columns should be in the file
+All codes take a transition table, in CSV file, as input. The following columns should be in the file
 
-* state, this colum contains name of file
-* input_x column for each x in symbols,  a comma seperate list of states that can be reached from state on symbol x
-* isInitial, a binary column containing True if state is initial state and False other wise.
-* isFinal, a binary column containing True if state is final state and False other wise.
+* state, this column contains name of file
+* input_x column for each x in symbols,  a comma separated list of states that can be reached from state on symbol x
+* isInitial, a binary column containing True if state is initial state and False otherwise.
+* isFinal, a binary column containing True if state is final state and False otherwise.
 For NFA-null following column is also required
-* input_null column,  a comma seperate list of states that can be reached from state of null input
+* input_null column,  a comma separated list of states that can be reached from state of null input
 ### Input Example
 
 An example CSV file for NFA-null given in figure is 
@@ -44,7 +44,7 @@ states,input_0,input_1,input_null,isInitial,isFinal
 5,4,,,FALSE,FALSE
 ```
 ##Output
-The output of each code will be printed in the notebook and is self explanatory. Some of the working will also be printed to help understand the working of algorithm.
+The output of each code will be printed in the notebook and is self-explanatory. Some of the working will also be printed to help understand the working of algorithm.
 
 
 ## Future Work.
