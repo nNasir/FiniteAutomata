@@ -17,6 +17,9 @@ Following Abbreviations are used throughout this repositort
 * NFA-null= Nondeterminisitic Finite Automata with null transitions
 * RE= Regular Expression  
 
+## Code
+All the code files are in jupyter notebook python 3
+
 ## Input
 All thse code file take a transition table in CSV file as input. The following columns should be in the file
 
