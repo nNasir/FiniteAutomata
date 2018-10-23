@@ -4,7 +4,7 @@ This repository is intended to contained code files for various properties of fi
 Its is created to for instructors who want to quickly provide/verify solutions. And for students who want to verify solutions. 
 
 Version 1.0 contains code for following algorithm
-  * NFA to FA
+  * NFA to DFA
   * NFA-null to NFA
   * Minimization of DFA
   * DFA to RE using State Elimination method
@@ -26,9 +26,29 @@ All thse code file take a transition table in CSV file as input. The following c
 * isFinal, a binary column containing True if state is final state and False other wise.
 For NFA-null following column is also required
 * input_null column,  a comma seperate list of states that can be reached from state of null input
-### Example
+### Input Example
 
-And Example CSV file for FA given in figure is 
+An example CSV file for NFA-null given in figure is 
 
 ![](https://github.com/nNasir/FiniteAutomata/blob/master/NFAnull.JPG)
+
+```
+states,input_0,input_1,input_null,isInitial,isFinal
+1,,,2,TRUE,FALSE
+2,"2,3",,,FALSE,TRUE
+3,,4,,FALSE,FALSE
+4,,5,1,FALSE,FALSE
+5,4,,,FALSE,FALSE
+```
+##Output
+The output of each code will be printed in the notebook and is self explanatory. Some of the working will also be printed to help understand the working of algorithm.
+
+
+## Future Work.
+Some more algorithms that should be added to this repository are
+
+* Extended transition function of FA
+* RE to FA
+
+  
 
