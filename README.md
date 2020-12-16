@@ -1,6 +1,6 @@
 # FiniteAutomata
 
-This repository is intended to contain code files for various properties of finite automata.
+This  repository is intended to contain code files for various properties of finite automata.
 It is created for instructors who want to quickly provide/verify solutions. And for students who want to verify solutions. 
 
 Version 1.0 contains code for following algorithm
