@@ -1,0 +1,4 @@
+states,input_a,input_b,isInitial,isFinal
+A,B,B,TRUE,TRUE
+B,C,A,FALSE,TRUE
+C,C,A,FALSE,FALSE
